@@ -1,6 +1,6 @@
 # Vladislav Dmitriev
 
-## contacts:  
+## Contacts:  
 
 **Discord:** *Vlad(@VlDmitriev)*  
 **Email:** dmitriev.vlad@yandex.ru  
@@ -30,3 +30,14 @@ function multiple(a, b) {
 }
 
 ```   
+
+
+## Education  
+
+*Branch of Samara State University of Railway Transport*  
+(specialty: "organization of transportation and management of railway transport")  
+
+
+## languages
+
+* English - A1
