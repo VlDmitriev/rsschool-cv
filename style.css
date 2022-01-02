@@ -106,7 +106,32 @@ h2 {
     padding: 50px 70px;
 }
 
+.code {
+    width: 40%;
+    background-color: rgb(202, 202, 202);
+    padding: 20px;
+    margin: 80px 100px;
+    border-left: solid rgb(87, 87, 87) 20px; 
+}
 
+.education {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    padding: 30px 25px;
+    line-height: 1.7;
+}
+
+.bold {
+    font-weight: bold ;
+}
+
+.languages {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    padding: 30px 25px;
+}
 
 
 
