@@ -43,7 +43,9 @@ main {
 
 }
 
-
+.avatar {
+    width: 100%; 
+}
 
 article {
     background-color: darkgoldenrod;
