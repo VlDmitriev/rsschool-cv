@@ -38,7 +38,7 @@ main {
 }
 
 .sidebar {
-    background-color: cornflowerblue;
+    background-color: rgb(38, 39, 41);
     flex: 0 2 30%;
 
 }
@@ -47,9 +47,42 @@ main {
     width: 100%; 
 }
 
+.contact-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 10px auto;
+    background-color: rgb(19, 19, 19);
+}
+
+.contacts-list {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.contact-name {
+    font-weight: bold;
+    padding: 10px;
+}
+
 article {
-    background-color: darkgoldenrod;
+    background-color: rgb(27, 27, 27);
     flex: 1 0 auto;
 }
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    padding: 200px 0 200px 0;
+    color: white;
+}
+
+
 
 
