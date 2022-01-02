@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(65, 61, 61);
 }
 
 nav {
@@ -48,21 +48,16 @@ main {
 }
 
 .contact-title {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    margin: 10px auto;
-    background-color: rgb(19, 19, 19);
+    margin: 15px auto;  
 }
 
 .contacts-list {
-    display: inline-block;
+    display: block;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     padding: 20px;
     color: rgb(255, 255, 255);
+    list-style-type: none;
 }
 
 .contact-name {
@@ -71,8 +66,8 @@ main {
 }
 
 article {
-    background-color: rgb(27, 27, 27);
-    flex: 1 0 auto;
+    background-color: rgb(34, 34, 34);
+    flex: 1 0 70%;
 }
 
 h1 {
@@ -82,6 +77,41 @@ h1 {
     padding: 200px 0 200px 0;
     color: white;
 }
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.title {
+    padding: 20px;
+    background-color: rgb(19, 19, 19);
+    border-left: solid rgb(94, 94, 94) 20px;  
+}
+
+.info-about-me {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    padding: 80px 40px;
+    text-align: justify;
+    line-height: 2.3;    
+}
+
+.skills {
+    color: white;
+    font-size: 20px;
+    line-height: 2;
+    padding: 50px 70px;
+}
+
+
+
+
+
+
+
 
 
 
