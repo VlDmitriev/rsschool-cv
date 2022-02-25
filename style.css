@@ -10,6 +10,7 @@ html{
 
 body {
     background-color: rgb(59, 59, 59);
+    font-family: 'Inter', sans-serif;
 }
 
 .container {
@@ -37,7 +38,6 @@ body {
 
 .nav-items {
     text-align: center;
-    font-family:Arial, Helvetica, sans-serif;
 }
 
 .nav-link {
@@ -84,7 +84,6 @@ body {
 
 .contacts-list {
     display: block;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     padding: 20px;
     color: rgb(255, 255, 255);
@@ -101,7 +100,6 @@ article {
 }
 
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
     text-align: center;
     padding: 200px 0;
@@ -109,7 +107,6 @@ h1 {
 }
 
 h2 {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     color: white;
 }
@@ -121,7 +118,6 @@ h2 {
 }
 
 .info-about-me {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: white;
     padding: 80px 40px;
@@ -145,14 +141,12 @@ h2 {
 }
 
 .project {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
     color: white;
     margin: 40px;
 }
 
 .education {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: white;
     padding: 30px 25px;
@@ -164,7 +158,6 @@ h2 {
 }
 
 .languages {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: white;
     padding: 30px 25px;
@@ -180,7 +173,6 @@ h2 {
 
 .github  {
     padding: 40px 70px;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: white;
 }
