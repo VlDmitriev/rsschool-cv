@@ -163,23 +163,28 @@ h2 {
     padding: 30px 25px;
 }
 
-.footer {
-    height: 100px;
-}
+
+/* ---------- footer ---------- */
 
 .footer .container {
-    background-color: rgb(46, 47, 49);
+    background-color: rgb(77, 77, 77);
+    align-items: center;
 }
 
-.github  {
-    padding: 40px 70px;
+.github-link {
+    padding: 7px;
     font-size: 20px;
     color: white;
+    text-decoration: none;
 }
 
-.github:hover {
+.github-icon{
+    width: 30px;
+    margin-left: 60px;
+}
+
+.github-link:hover {
     color: black;
-    background-color: grey;
 }
 
 .date {
@@ -190,19 +195,9 @@ h2 {
 }
 
 .rs-school {
-    width: 100px;
-    padding: 30px 70px;
+    width: 150px;
+    margin-right: 60px;
 }
-
-.rs-school:hover {
-    background-color: grey;
-}
-
-a {
-    color: white;
-    text-decoration: none;
-}
-
 
 
 
