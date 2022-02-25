@@ -8,6 +8,11 @@ html{
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 body {
     background-color: rgb(59, 59, 59);
     font-family: 'Inter', sans-serif;
