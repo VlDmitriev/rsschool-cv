@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -7,51 +11,44 @@ body {
     background-color: rgb(59, 59, 59);
 }
 
-nav {
-    background-color: none;
-    width: 75%;
+.container {
+    display: flex;
+    max-width: 1440px;
     margin: 0 auto;
-    padding: 15px 0;
 }
 
-/*.navigation {
+.nav {
+    display: block;
+    width: 100%;
+    background-color: rgb(46, 47, 49);
+}
+
+.navigation {
     display: flex;
-    display: table;
-    flex-wrap: nowrap;
-}*/
+    justify-content: flex-end;
+}
 
 .nav-list {
-    background-color: rgb(34, 34, 34);
-    display: inline;
-    display: table-cell;
+    list-style: none;
     text-align: center;
-    width: 5%;
     padding: 15px;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: white;  
 }
 
-.nav-list:hover {
+/*.nav-list:hover {
     font-size: 27px;
     background-color: black;
-}
+}*/
 
-main {
-    display: flex;
-    width: 75%;
-    margin: 0 auto;
-}
 
 .sidebar {
-    background-color: rgb(38, 39, 41);
-    flex: 0 2 30%;
-
+    background-color: rgb(46, 47, 49);
 }
 
 .avatar {
-    width: 100%;
-     
+    width: 100%;   
 }
 
 .contact-title {
@@ -74,14 +71,13 @@ main {
 
 article {
     background-color: rgb(34, 34, 34);
-    flex: 1 0 70%;
 }
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
     text-align: center;
-    padding: 200px 0 200px 0;
+    padding: 200px 0;
     color: white;
 }
 
@@ -147,12 +143,12 @@ h2 {
     padding: 30px 25px;
 }
 
-footer {
-    display: flex;
-    background-color: rgb(75, 75, 75);
-    width: 75%;
-    margin: 0 auto;
+.footer {
     height: 100px;
+}
+
+.footer .container {
+    background-color: rgb(46, 47, 49);
 }
 
 .github  {
