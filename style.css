@@ -40,7 +40,6 @@ body {
     list-style: none;
 }
 
-
 .nav-items {
     text-align: center;
 }
@@ -73,6 +72,16 @@ body {
     left: 0;
 }
 
+@media (max-width: 768px){
+    .nav-list {
+        justify-content: space-around;
+    }
+
+    .nav-link {
+        width: fit-content;
+    }
+}
+
 /* ---------- Main ---------- */
 
 .sidebar {
@@ -88,6 +97,10 @@ body {
 }
 
 .contacts-list {
+    padding: 10px 0 40px 20px;
+}
+
+.contact-item {
     display: block;
     font-size: 20px;
     padding: 20px;
@@ -100,15 +113,20 @@ body {
     padding: 10px 10px 10px 0;
 }
 
-article {
+.main-content {
     background-color: rgb(34, 34, 34);
 }
 
-h1 {
+.name-title {
     font-size: 50px;
     text-align: center;
     padding: 200px 0;
     color: white;
+}
+
+
+.name-title-mobile {
+    display: none;
 }
 
 h2 {
@@ -168,12 +186,36 @@ h2 {
     padding: 30px 25px;
 }
 
+@media (max-width: 768px){
+    .container {
+        flex-direction: column;
+    }
+
+    .name-title {
+        display: none;
+    }
+
+    .name-title-mobile {
+        display: block;
+        text-align: end;
+        font-size: 50px;
+        color: white;
+        padding: 80px 40px;
+    }
+}
+
 
 /* ---------- footer ---------- */
 
 .footer .container {
     background-color: rgb(77, 77, 77);
     align-items: center;
+}
+
+@media (max-width: 768px){
+    .footer .container {
+        flex-direction: row;
+    }
 }
 
 .github-link {
