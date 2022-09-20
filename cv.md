@@ -1,41 +1,53 @@
 # Vladislav Dmitriev
 
-## Contacts:  
+## Contacts:
 
-**Discord:** *Vlad(@VlDmitriev)*  
-**Email:** dmitriev.vlad@yandex.ru  
-**GitHub:** *VlDmitriev*   
+**Discord:** *Vlad(@VlDmitriev)*
+**Email:** dmitriev.vlad@yandex.ru
+**GitHub:** *VlDmitriev*
 
 
 
-## Information about me  
+## Information about me
 * I prefer a healthy lifestyle, I do sports.
 * I like to study and learn something new.
-* At the moment my goal is to become a junior Frontend developer.   
+* At the moment my goal is to become a junior Frontend developer.
 
 
 
-## Skills  
+## Skills
 
-* HTML5  
+* HTML5
 * CSS3
-* JS      
+* JS
 
 
-## Code example  
+## Code example
 
 ```
-function multiple(a, b) {
-  return a + b;
+function countCats(matrix) {
+  //throw new NotImplementedError('Not implemented');
+  let count = 0;
+  for (let i in matrix){
+    for (let j in matrix[i]){
+      if (matrix[i][j] === '^^'){
+        count++
+      }
+    }
+  }
+  return count
 }
 
-```   
+```
 
 
-## Education  
+## Project
 
-*Branch of Samara State University of Railway Transport*  
-(specialty: "organization of transportation and management of railway transport")  
+
+## Education
+
+*Branch of Samara State University of Railway Transport*
+(specialty: "organization of transportation and management of railway transport")
 
 
 ## languages
